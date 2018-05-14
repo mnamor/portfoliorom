@@ -1,10 +1,13 @@
 fh5co_display_table_active:active{
     color:#FF9100;
 }
+.fh5co_display_table{
+    color: #FF9100;
+}
 
 .fh5co_verticle_middle_1:hover,.fh5co_verticle_middle_1:focus{
     color:#FF9100;
-    
+
 }
 
 .color_fff
@@ -44,9 +47,9 @@ fh5co_display_table_active:active{
     font-size:18px;
     /*border:1px solid #4d3976 !important;
     */cursor:pointer;
-    
+
     color:#FF9100 !important;
-      
+
 }
 
 .fh5co_verticle_middle{
@@ -91,7 +94,11 @@ fh5co_display_table_active:active{
 }
 a {
     color: #FF9100 !important;
-   
+
+}
+aa {
+    color: #fff !important;
+
 }
 .fh5co_padding_menu{
     padding:20px 0
@@ -103,7 +110,8 @@ a {
     padding-top:10px
 }
 .fh5co_suceefh5co_height{
-    height:550px;
+
+    height:100%;
     overflow:hidden;
     width:100%;
     position:relative
@@ -157,22 +165,23 @@ a {
     text-decoration:none
 }
 .fh5co_suceefh5co_height_2{
-    height:450px;
-   
+    height:650px;
+
     width:100%;
     margin-top: 25% !important;
 }
 
 .fh5co_suceefh5co_height_2b{
     height:100px;
-    padding-top: 15px;
+    padding-top: 0px;
     width:100%;
     position:none;
     align-content: inline;
     
+
 }
-h1{
-    
+h3{
+      font-size: 12px !iportant;
     color: #FF9100;
 }
   h2{
@@ -180,25 +189,25 @@ h1{
     margin-top: -60px;
     color: #fff;
       font-size: 12px;
-}       
+}
 h6{
       text-align: center;
       margin-top: 5px;
     color: #fff;
     font-size: 12px;
-}                
+}
 .h{
     font-size: 10px;
       text-align: center;
       margin-top: -25px;
     color: #fff;
-}    
+}
 .hh{
     font-size: 10px;
       text-align: center;
       margin-top: 5px;
     color: #fff;
-}    
+}
 .fh5co_suceefh5co_height_6/*>img*/{
     height:200px;
     width:100%;
@@ -218,20 +227,11 @@ h6{
     color:#fff;
     z-index:7;
     top:8%;
-    
+   
+
     padding:0 10px;
-}                       
-.fh5co_suceefh5co_height_position_absolute_font_2{
-    position:fixed;
-     width:92%;
-    height:300px
-    color:#fff;
-    z-index:7;
-    top:50%;
-    left:5%;
-    padding:0 10px;
-    text-align: center;
 }
+
 .fh5co_suceefh5co_height_position_absolute_font_3{
     position:fixed;
     width:100px;
@@ -269,17 +269,17 @@ h6{
     width: 100;
     height: 100px;
     text-align: center;
-    display: flex;
+    display: absolute;
 }
 #navbar_mid{
     position: fixed;
     margin-top: 7%;
-    margin-left: 15px;
+    margin-left: 10px;
     background-color: none;
     width: none;
     height: 100%;
     text-align: center;
-    display: flex;
+    display: absolute;
 }
 #container_principale{
     margin-left: 5%;
@@ -315,9 +315,9 @@ h6{
 .fh5co_display_table_footer:hover,.fh5co_display_table_footer:focus{
     display:table;
     color:#777;
-   
+
     cursor:pointer;
-   
+
 }
 .footer_menu{
     list-style:none;padding:0
@@ -359,7 +359,7 @@ h6{
 .footer_last_part_menu{
     color:#000 !important;
     padding:0 10px;
-   
+
 }
 .spdp_right{
     text-align:right
@@ -421,11 +421,7 @@ h6{
 .fh5co_contact_us_no_text{
     font-size:16px
 }
-.fh5co_contact_us_no_icon_difh5co_hover:hover>.fh5co_contact_us_no_icon_difh5co_hover_1>.fh5co_contact_us_no_icon_div{
-    color:#4d3976 !important;
-    cursor:pointer;
-    border:2px solid #fff !important
-}
+
 .fh5co_contact_us_no_icon_difh5co_hover_2{
     padding-left:0 !important;
     padding-right:0 !important
@@ -462,7 +458,7 @@ h6{
     height:350px !important;
     width:100% !important;
     border:0 !important;
-    frameborder:0 !important
+    /*frameborder:0 !important*/
 }
 .contact_margin_svnit{
     margin:20px 0 !important
@@ -475,7 +471,7 @@ h6{
     display: absolute;
     margin-left: 0px;
     margin-top: 0px;
-    
+
 }
 #navbar-vertical-mid{
 
@@ -485,14 +481,14 @@ h6{
     margin-top: 0px;
 }
 #navbar-vertical-bot{
-    
+
     bottom: 0px;
 }
 body{
     background-color: black !important;
 }
 iframe{
-   
+
     visibility: visible !important;
 }
 
@@ -535,7 +531,7 @@ img {
 .single_post_content{float:left; display:inline; width:100%; margin-bottom:20px}
 
 .container-fluid {
-    position: relative;
+    /*position: relative;*/
     margin-left: 10%;
     margin-right: 10%;
     padding-right: 15px;
@@ -564,4 +560,139 @@ img {
 .center{
     color: black;
     margin-top:-60px;
+}
+.row mx-0{
+  margin-left: 25% !important;
+}
+
+/* Make sure that padding behaves as expected */
+
+/* Container for skill bars */
+.containerskill {
+      border-radius: 15% !important; 
+  width: 100%;
+  background-color: darkgray;
+ 
+}
+
+.skills {
+    
+     border-radius: 15% !important; 
+    text-align:none!important; /* Right-align text */
+    padding-left:25px !important; /* Add some right padding */
+    line-height: 45px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {
+    
+    width: 100%; 
+    background-color: #FF9100;
+
+    }
+.css {
+    
+    width: 100%; 
+    background-color: #FF9100;
+
+    }
+.ruby {
+    
+    width: 80%; 
+    background-color: #FF9100;
+
+    }
+
+.ror {
+    
+    width: 65%; 
+    background-color: #FF9100;
+
+    }
+
+.javascript {
+    
+    width: 15%; 
+    background-color: #FF9100;
+
+    }
+
+.skills2 {
+      border-radius: 15% !important;
+    text-align:none!important; /* Right-align text */
+    padding-left:25px!important; /* Add some right padding */
+    line-height: 35px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.php{
+    width: 25%;
+    background-color: #FF9100;
+}
+
+.c{
+    width: 25%;
+    background-color: #FF9100;
+}
+.python{
+    width: 25%;
+    background-color: #FF9100;
+}
+
+.skills3 {
+    
+    border-radius: 15% !important;
+    text-align:none !important; /* Right-align text */
+    padding-left:25px !important; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.photoshop{
+     width: 100%;
+    background-color: #FF9100;
+}
+
+.illustrator{
+     width: 100%;
+    background-color: #FF9100;
+}
+.artaplique{
+     width: 100%;
+    background-color: #FF9100;
+}
+
+.aftereffect{
+     width: 25%;
+    background-color: #FF9100;
+}
+.blender{
+     width: 50%;
+    background-color: #FF9100;
+}
+.autocad{
+     width: 25%;
+    background-color: #FF9100;
+}
+.sketchup{
+     width: 25%;
+    background-color: #FF9100;
+}
+.finalcut{
+     width: 25%;
+    background-color: #FF9100;
+}
+.container {
+    position: relative;
+    margin-left: 15% !important;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.teste{
+    margin-top: 35px !important;
+}
+
+.name_1{
+    color:#FF9100; 
 }
